@@ -22,11 +22,7 @@ namespace ThreadsCommunication
 
             Console.ReadKey();
         }
-
-        private static AutoResetEvent waitHandle1 = new AutoResetEvent(false);
-        private static AutoResetEvent waitHandle2 = new AutoResetEvent(false);
-
-        private bool fruitPutted = false;
+     
 
         public void ProducerThread(object obj)
         {
@@ -36,16 +32,7 @@ namespace ThreadsCommunication
             {
                 for (int i = 0; i < fruits.Length; i++)
                 {
-                    if (fruitPutted)
-                    {
-                        waitHandle1.WaitOne();
-                    }
-
                     basket.PutFruit(fruits[i]);
-
-                    fruitPutted = true;
-
-                    waitHandle2.Set();
                 }           
             } 
         }
@@ -56,18 +43,8 @@ namespace ThreadsCommunication
             {
                 for (int i = 0; i < 5; i++)
                 {
-                    if (!fruitPutted)
-                    {
-                        waitHandle2.WaitOne();
-                    }
-
-                    fruitPutted = false;
-
                     basket.GetFruit();
-
-                    waitHandle1.Set();
                 }
-                
             }
         }
     }

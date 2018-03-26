@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreading", "MultiThreading\MultiThreading.csproj", "{F9CE52A9-CEFC-43E8-96D6-1CFA2AA12001}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrentThread", "MultiThreading\CurrentThread.csproj", "{F9CE52A9-CEFC-43E8-96D6-1CFA2AA12001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleThread", "SimpleThread\SimpleThread.csproj", "{BEFFCD75-2AA7-43BF-81CF-BE8CB3708FA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParametrizedThread", "ParametrizedThread\ParametrizedThread.csproj", "{F64EF566-C260-4D1B-920B-69E69AB6AD87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaemonThread", "DaemonThread\DaemonThread.csproj", "{3561E584-AF58-44AC-8573-55AF10178447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizedThread", "SynchronizedThread\SynchronizedThread.csproj", "{76F2CCA3-3E77-4365-A8B7-880F9C3C171F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsCommunication", "ThreadsCommunication\ThreadsCommunication.csproj", "{DB346A37-1267-4B35-B21F-48508F1CED19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{F9CE52A9-CEFC-43E8-96D6-1CFA2AA12001}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9CE52A9-CEFC-43E8-96D6-1CFA2AA12001}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9CE52A9-CEFC-43E8-96D6-1CFA2AA12001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEFFCD75-2AA7-43BF-81CF-BE8CB3708FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFFCD75-2AA7-43BF-81CF-BE8CB3708FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFFCD75-2AA7-43BF-81CF-BE8CB3708FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFFCD75-2AA7-43BF-81CF-BE8CB3708FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64EF566-C260-4D1B-920B-69E69AB6AD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64EF566-C260-4D1B-920B-69E69AB6AD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64EF566-C260-4D1B-920B-69E69AB6AD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64EF566-C260-4D1B-920B-69E69AB6AD87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3561E584-AF58-44AC-8573-55AF10178447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3561E584-AF58-44AC-8573-55AF10178447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3561E584-AF58-44AC-8573-55AF10178447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3561E584-AF58-44AC-8573-55AF10178447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F2CCA3-3E77-4365-A8B7-880F9C3C171F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F2CCA3-3E77-4365-A8B7-880F9C3C171F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F2CCA3-3E77-4365-A8B7-880F9C3C171F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F2CCA3-3E77-4365-A8B7-880F9C3C171F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB346A37-1267-4B35-B21F-48508F1CED19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB346A37-1267-4B35-B21F-48508F1CED19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB346A37-1267-4B35-B21F-48508F1CED19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB346A37-1267-4B35-B21F-48508F1CED19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
